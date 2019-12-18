@@ -1,0 +1,4 @@
+list = ([1,2],[1,2,1,4,5]);
+
+list=list.filter(x => !(x==list[0]));
+console.log(list)
